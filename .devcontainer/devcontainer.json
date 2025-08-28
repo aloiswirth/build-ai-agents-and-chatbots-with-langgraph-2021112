@@ -1,4 +1,4 @@
-{  
+{
   "name": "Python 3",
   // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
   "image": "mcr.microsoft.com/devcontainers/python:0-3.10-bullseye",
@@ -28,6 +28,6 @@
   // Update welcome text and set terminal prompt to '$ '
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc",
   // Pull all branches
-  "postAttachCommand": "git pull --all"
+  "postAttachCommand": "git pull origin"
 }
 // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
